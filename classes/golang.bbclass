@@ -34,7 +34,7 @@ GOROOT = "${STAGING_LIBDIR}/go"
 GOROOT_class-native = "${STAGING_LIBDIR_NATIVE}/go"
 GOROOT_class-nativesdk = "${STAGING_DIR_TARGET}${libdir}/go"
 export GOROOT
-GOTOOLDIR = "${STAGING_LIBDIR_NATIVE}/${TARGET_SYS}/go/pkg/tool/${BUILD_GOTUPLE}"
+GOTOOLDIR = "${STAGING_LIBDIR_NATIVE}/${MULTIMACH_TARGET_SYS}/go/pkg/tool/${BUILD_GOTUPLE}"
 GOTOOLDIR_class-native = "${STAGING_LIBDIR_NATIVE}/go/pkg/tool/${BUILD_GOTUPLE}"
 export GOTOOLDIR
 export GO_SHLIBDIR ?= "${libdir}/go/pkg/${TARGET_GOTUPLE}_dynlink"
